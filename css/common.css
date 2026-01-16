@@ -1,0 +1,65 @@
+/* 整个项目中唯一的一个用于书写公共css代码的文件 */
+
+/* 重置所有标签的默认样式 */
+/* 清除标签的默认的内外边距 */
+body,
+button,
+dd,
+dl,
+dt,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+input,
+li,
+ol,
+p,
+td,
+textarea,
+th,
+ul {
+  margin: 0;
+  padding: 0
+}
+
+/* 清除列表的样式 */
+ul,
+ol {
+  list-style: none;
+}
+
+/* 清除a标签的默认样式 */
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* 图片的三像素 */
+img {
+  border: 0;
+  vertical-align: bottom;
+}
+
+/* 将所有标签改成怪异盒子 */
+* {
+  box-sizing: border-box;
+}
+
+/* 页面的版心 */
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+body {
+  background: #000;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+}

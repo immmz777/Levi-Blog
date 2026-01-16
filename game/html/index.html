@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Click on the small ball.</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+  <div id="start-overlay" class="overlay">
+    <div class="overlay-card">
+      <h2>Game Instructions</h2>
+      <p>You have <strong>60 </strong>seconds.</p>
+      <p>Click the small ball to score points.</p>
+      <button id="start-btn">Start Game</button>
+    </div>
+  </div>
+  <div class="glass">
+    <h1>🎮 Click on the small ball</h1>
+    <div class="score">
+      score:<span id="score">0</span>
+    </div>
+
+    <div class="time">
+      Remaining time: <span id="time">60</span>
+    </div>
+
+    <div id="game-area">
+      <div id="ball"></div>
+    </div>
+  </div>
+  <div id="overlay" class="overlay hidden">
+    <div class="overlay-card">
+      <h2>Game Over</h2>
+      <p>Your score: <span id="final-score">0</span></p>
+      <button id="reset-btn">Play Again</button>
+    </div>
+  </div>
+  <script src="../js/game.js"></script>
+
+
+</html>

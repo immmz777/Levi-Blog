@@ -1,0 +1,162 @@
+.content {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-top: 50px;
+  font-family: "Comfortaa", sans-serif;
+  color: #fff;
+}
+
+/* 每个板块统一样式 */
+.project-section {
+  margin-bottom: 60px;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.04);
+  border-left: 4px solid hsl(263, 50%, 81%);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* 板块标题 */
+.section-title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 16px;
+  color: #968989;
+}
+
+/* 板块文字 */
+.section-text {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #fff;
+}
+
+/* 列表美化 */
+.section-list {
+  list-style: disc;
+  padding-left: 20px;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #fff;
+}
+
+/* 页面效果图 */
+.demo-img {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.demo-img img {
+  width: 60%;
+  max-width: 400px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s;
+}
+
+.demo-img img:hover {
+  transform: scale(1.05);
+}
+
+/* 顶部标题 */
+.top {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  padding-left: 15%;
+  font-size: 36px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.top-text p {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+
+
+/* 页脚 */
+.footer {
+  width: 100%;
+  margin: 20px 0;
+  padding-top: 35px;
+  background-color: #000;
+  position: relative;
+  /* make back-button absolute positioning relative to footer */
+}
+
+.footer-content {
+  text-align: center;
+  font-size: 14px;
+  color: #aaa;
+  line-height: 1.8;
+}
+
+.footer-content a {
+  color: #aaa;
+}
+
+.footer-content a:hover {
+  color: #fff;
+}
+
+.back-button {
+  position: absolute;
+  left: 15%;
+  top: 50%;
+  transform: translateY(-50%);
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 10px;
+  height: 36px;
+  background: rgba(255, 255, 255, 0.06);
+  color: white;
+  text-decoration: none;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  font-family: "Comfortaa", sans-serif;
+  font-size: 15px;
+  line-height: 1;
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+}
+
+.back-button svg {
+  width: 14px;
+  height: 14px;
+  display: block;
+  color: white;
+  margin-left: 2px;
+}
+
+.back-button span {
+  display: inline-block;
+  transform: translateX(-1px);
+}
+
+.back-button:hover {
+  background: rgba(255, 255, 255, 0.12);
+  border-color: rgba(255, 255, 255, 0.18);
+}
+
+/* 响应式 */
+@media (max-width: 768px) {
+  .content {
+    width: 95%;
+    padding-top: 30px;
+  }
+
+  .section-title {
+    font-size: 24px;
+  }
+
+  .demo-img img {
+    width: 90%;
+  }
+}

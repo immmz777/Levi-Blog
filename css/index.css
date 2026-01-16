@@ -1,0 +1,489 @@
+/* iPhone 14 / 15 / Pro / Pro Max（竖屏） */
+@media (max-width: 480px) {
+  .top {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 16px;
+  }
+
+  .top-left {
+    padding-left: 0;
+  }
+
+  .top-right {
+    margin-right: 0;
+  }
+
+  .nav {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .nav li {
+    margin: 6px 8px;
+    font-size: 15px;
+  }
+
+  .avatar {
+    width: 140px;
+    height: 140px;
+    top: 28%;
+  }
+
+  .Myname-text {
+    font-size: 22px;
+    margin-top: 10px;
+  }
+
+  .department-text {
+    font-size: 14px;
+    margin-top: 8px;
+  }
+
+  .Self-description,
+  .Motto {
+    font-size: 13px;
+    padding: 0 16px;
+  }
+
+  .social-icons img {
+    width: 34px;
+    height: 34px;
+  }
+
+  .footer {
+    margin-top: 80px;
+  }
+
+  .content {
+    padding-top: 20px;
+  }
+
+  .footer {
+    padding-bottom: calc(20px + env(safe-area-inset-bottom));
+  }
+}
+
+/* iPhone Safe Area Support */
+@supports (padding: env(safe-area-inset-top)) {
+
+  body {
+    padding-top: env(safe-area-inset-top);
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+
+  .top {
+    padding-top: calc(20px + env(safe-area-inset-top));
+  }
+
+  .footer {
+    padding-bottom: calc(30px + env(safe-area-inset-bottom));
+  }
+}
+
+/* iPad 横屏 */
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .top {
+    padding: 20px 40px;
+  }
+
+  .top-left {
+    padding-left: 120px;
+  }
+
+  .top-right {
+    margin-right: 80px;
+  }
+
+  .avatar {
+    width: 220px;
+    height: 220px;
+    top: 32%;
+  }
+
+  .Myname-text {
+    font-size: 26px;
+    margin-top: 16px;
+  }
+
+  .department-text {
+    font-size: 17px;
+    margin-top: 10px;
+  }
+
+  .Self-description,
+  .Motto {
+    font-size: 16px;
+    margin-top: 12px;
+    padding: 0 40px;
+  }
+
+  .social-icons img {
+    width: 38px;
+    height: 38px;
+  }
+}
+
+/* @media (max-width: 480px) {
+  .top {
+    flex-direction: column;
+    padding: 10px 16px;
+  }
+
+  .nav li {
+    font-size: 15px;
+    margin: 6px 8px;
+  }
+
+  .avatar {
+    width: 140px;
+    height: 140px;
+    top: 28%;
+  }
+
+  .Myname-text {
+    font-size: 22px;
+  }
+
+  .department-text {
+    font-size: 14px;
+  }
+
+  .Self-description,
+  .Motto {
+    font-size: 13px;
+    padding: 0 16px;
+  }
+
+  .social-icons img {
+    width: 34px;
+    height: 34px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .top {
+    padding: 20px 30px;
+  }
+
+  .avatar {
+    width: 220px;
+    height: 220px;
+    top: 32%;
+  }
+
+  .Myname-text {
+    font-size: 26px;
+  }
+
+  .department-text {
+    font-size: 17px;
+  }
+
+  .Self-description,
+  .Motto {
+    font-size: 16px;
+  }
+} */
+
+/* @media (max-width: 768px) {
+  .top {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 20px;
+  }
+
+  .top-left {
+    padding-left: 0;
+  }
+
+  .top-right {
+    margin-right: 0;
+  }
+
+  .nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 8px;
+  }
+
+  .nav li {
+    margin: 6px 10px;
+    font-size: 16px;
+  }
+
+  .avatar {
+    width: 150px;
+    height: 150px;
+    top: 30%;
+  }
+
+  .Myname-text {
+    font-size: 22px;
+    margin-top: 10px;
+  }
+
+  .department-text {
+    font-size: 15px;
+    margin-top: 8px;
+  }
+
+  .Self-description,
+  .Motto {
+    font-size: 14px;
+    margin-top: 10px;
+    padding: 0 20px;
+  }
+
+  social-icons {
+    gap: 16px;
+    margin-top: 24px;
+  }
+
+  .social-icons img {
+    width: 36px;
+    height: 36px;
+  }
+
+  .footer {
+    margin-top: 80px;
+    padding: 20px 0;
+  }
+
+  .footer-content {
+    font-size: 12px;
+  }
+} */
+
+/* @media (max-width: 768px) {
+  .top {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .top-left {
+    padding-left: 0;
+  }
+
+  .top-right {
+    margin-right: 0;
+  }
+
+  .nav {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .avatar {
+    width: 160px;
+    height: 160px;
+    top: 30%;
+  }
+} */
+
+/* @media (max-width: 768px) {
+  .top {
+    flex-direction: column;
+    height: auto;
+    padding: 10px 20px;
+  }
+
+  .top-left-text {
+    margin-bottom: 10px;
+  }
+
+  .nav li {
+    margin: 0 10px;
+    font-size: 16px;
+  }
+
+  .avatar {
+    width: 150px;
+    height: 150px;
+  }
+
+  .Myname-text {
+    font-size: 24px;
+  }
+
+  .department-text {
+    font-size: 16px;
+  }
+} */
+body{
+    overflow: hidden;
+}
+
+.top {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: saddlebrown; */
+  padding: 20px 40px 0;
+
+}
+
+
+/* 左侧 */
+.top-left {
+  padding-left: 200px;
+}
+
+.top-left-text {
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "Comfortaa", sans-serif;
+}
+
+/* 右侧导航 */
+.top-right {
+  margin-right: 120px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav li {
+  margin: 0 20px;
+  color: white;
+  font-size: 20px;
+  font-family: "Comfortaa", sans-serif;
+}
+
+.top-left-text,
+.nav li {
+  transform: translateY(-1px);
+  transition: transform 0.3s;
+  /* 悬停动画 */
+  cursor: pointer;
+}
+
+.nav li:hover {
+  transform: scale(1.2);
+  /* 悬停放大 */
+}
+
+.nav a {
+  color: white;
+
+}
+
+/* 分隔符 */
+.divider {
+  margin: 0 20px;
+  color: white;
+  font-size: 20px;
+  font-family: "Comfortaa", sans-serif;
+  cursor: default;
+}
+
+.avatar {
+  width: 300px;
+  /* 原来是 36px，现在放大 */
+  height: 300px;
+  /* 保持正方形，才能是圆形 */
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+  left: 50%;
+  top: 35%;
+  transform: translate(-50%, -50%);
+}
+
+.avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.Myname-text {
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "Comfortaa", sans-serif;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.content {
+  height: 450px;
+}
+
+.department-text {
+  font-size: 18px;
+  font-family: "Comfortaa", sans-serif;
+  color: #fff;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.Self-description {
+  font-size: 18px;
+  font-family: "Comfortaa", sans-serif;
+  color: #fff;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.Motto {
+  font-size: 18px;
+  font-family: "Comfortaa", sans-serif;
+  color: #fff;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  /* 水平居中 */
+  align-items: center;
+  gap: 20px;
+  /* 图标间距 */
+  margin-top: 30px;
+  /* 和头像/名字保持距离 */
+}
+
+.social-icons img {
+  width: 40px;
+  /* 统一大小 */
+  height: 40px;
+  transition: transform 0.3s;
+  /* 悬停动画 */
+  cursor: pointer;
+}
+
+.social-icons img:hover {
+  transform: scale(1.2);
+  /* 悬停放大 */
+}
+
+.footer {
+  width: 100%;
+  margin-top: 120px;
+  /* 与上方内容拉开距离 */
+  padding: 30px 0;
+}
+
+.footer-content {
+  text-align: center;
+  font-size: 14px;
+  color: #aaa;
+  line-height: 1.8;
+}
+
+.footer-content a {
+  color: #aaa;
+}
+
+.footer-content a:hover {
+  color: #fff;
+}
+
+
